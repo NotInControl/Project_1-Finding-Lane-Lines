@@ -64,9 +64,11 @@ This is actually seen in some of the videos where the lane marking falls under a
 
 Another issue with this approch has to do with the fact that all lane markings are modeled by a single line. In reality this is not true, and while the output looks great on the videos with straight lines, on curved roads the single line model does not fit the marking very well. In some instances the offset, or slope are averaged so drastically that the lane line is drawn askew of the actual marking in the video. Overall it is a great predictor, but I think there is still room for improvement. 
 
+While I feel the pipeline did characterize the challenge video well, the above shortcoming can be noticed, as the challenge video does go through a bend and has more shadows. 
+
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to a higher order polynominal to fit the points detected. Like drawing a quintic spline through discreet nodes on the line. 
+A possible improvement would be to use a higher order polynominal to fit the points detected. Like drawing a quintic spline through discreet nodes on the line, instead of a single line. If the final goal is to detect lines, so we can insure that our vehicle is in the center, then having a better model to fit the line would help improve accuracy. 
 
-Another possible improvement is to run the image though many more thresholding filters, to account for changes in yellow vs white markings in day vs night, or have a variable (vs) fixed thresholding setup like we do to account for different operating points, similar to gain scheduling on PID controllers. 
+Another possible improvement is to run the image though many more thresholding filters, to account for changes in yellow vs white markings in day vs night, or have a variable (vs) fixed thresholding setup like we do now to account for different operating points (day vs night), similar to gain scheduling on PID controllers, and still have resonable detection of lane markings. 
