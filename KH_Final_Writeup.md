@@ -19,7 +19,7 @@ The goals / steps of this project are the following:
 
 ---
 
-##Output
+## Output
 This section shows the final video output of the projects. Highwer quality MP4 video can be seen in the test_videos_output folder
 
 
@@ -27,8 +27,12 @@ This section shows the final video output of the projects. Highwer quality MP4 v
 ![Alt text](/test_videos_output/solidWhiteRight.gif?raw=true)
 
 ### Yellow Line Lane Markings
-![Alt text](/test_videos_output/solidYellowLeft.gif?raw=true  "Solid Yellow")
+![Alt text](/test_videos_output/solidYellowLeft.gif?raw=true)
 
+### Challenge Video
+![Alt text](/test_videos_output/challenge.gif?raw=true)
+
+-------
 
 ### Reflection
 
