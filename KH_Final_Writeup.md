@@ -19,6 +19,17 @@ The goals / steps of this project are the following:
 
 ---
 
+##Output
+This section shows the final video output of the projects. Highwer quality MP4 video can be seen in the test_videos_output folder
+
+
+### White Line Lane Markings
+![Alt text](/test_videos_output/solidWhiteRight.gif?raw=true)
+
+### Yellow Line Lane Markings
+![Alt text](/test_videos_output/solidYellowLeft.gif?raw=true  "Solid Yellow")
+
+
 ### Reflection
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
